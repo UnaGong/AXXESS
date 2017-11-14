@@ -7,8 +7,8 @@ body
 #finger{
 	display: inline-block;
 	text-align:center;
-	width: 48%;
-	font-size: 60px;
+	width: 40%;
+	font-size: 45px;
 	font-family:Courier New;
 	border: 5px solid black;
 	border-radius:25px;
