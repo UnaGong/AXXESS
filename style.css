@@ -67,6 +67,7 @@ body
 }
 
 #start{
+	font-size: 25px;
 	width: 18%;
 	height: 70px;
 	border-radius:35px;
@@ -74,6 +75,7 @@ body
 	background-color: white;
 }
 #restart{
+	font-size: 22px;
 	width: 18%;
 	height: 70px;
 	border-radius:35px;
@@ -82,6 +84,7 @@ body
 	margin-left: 17%;
 }
 #reset{
+	font-size: 25px;
 	width: 18%;
 	height: 70px;
 	border-radius:35px;
