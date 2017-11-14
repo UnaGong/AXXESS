@@ -1,0 +1,179 @@
+.bold {
+	/*font-weight: bold;*/
+	box-shadow: 10px 10px 5px #888888;
+	text-shadow: 5px 5px grey;
+	background-color: white;
+}
+body
+{
+	background-image: url(bg.jpg);
+
+}
+
+#finger{
+	display: inline-block;
+	text-align:center;
+	width: 48%;
+	font-size: 60px;
+	font-family:Courier New;
+	border: 5px solid black;
+	border-radius:25px;
+
+
+}
+#toe{
+	display: inline-block;
+	text-align:center;
+	width: 48%;
+	font-size: 60px;
+	font-family:Courier New;
+	border: 5px solid black;
+	border-radius:25px;
+
+
+}
+
+.frame{
+	position:absolute; 
+	top: 30%; 
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	/*border: 5px solid green;*/
+
+}
+
+.counter{
+
+	text-align:center;
+	font-family:Comic Sans MS,Helvetica,sans-serif;
+	font-size: 120px;
+	text-shadow: 10px 10px grey;
+	/*border: 25px solid green;*/
+	margin: 3%;
+}
+
+#input{
+	width: 15%;
+	height: 15%;
+	text-align:center;
+	font-size: 20px;
+	margin-top: 5%;
+	margin-left: 42%;
+	border: 1px solid grey;
+	border-radius:5px;
+
+}
+
+#start{
+	width: 70px;
+	height: 70px;
+	border-radius:35px;
+	border-color: black;
+	background-color: white;
+}
+#restart{
+	width: 70px;
+	height: 70px;
+	border-radius:35px;
+	border-color: black;
+	background-color: white;
+	margin-left: 21%;
+}
+#reset{
+	width: 70px;
+	height: 70px;
+	border-radius:35px;
+	border-color: black;
+	background-color: white;
+	margin-left: 21%;
+}
+
+.button{
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 10%;
+	/*border: 1px solid grey;*/
+}
+
+@media only screen and (max-width: 500px) {
+
+body{
+	background-color: #aabfe2;
+}
+#finger{
+
+	width: 60%;
+	font-size: 2em;
+	margin-top:2%;
+	margin-left: 20%;
+
+
+}
+#toe{
+
+	width: 60%;
+	font-size: 2em;
+	margin-top:2%;
+	margin-left: 20%;
+
+
+}
+.counter{
+
+	margin: 9%;
+}
+
+.bold {
+	/*font-weight: bold;*/
+	box-shadow: 7px 7px 5px #888888;
+	text-shadow: 2px 2px grey;
+	background-color: white;
+}
+.frame{
+	position:absolute; 
+	top: 30%; 
+	left: 2%;
+	width: 95%;
+	height: 70%;
+	/*border: 5px solid green;*/
+
+}
+#input{
+	width: 35%;
+	height: 8%;
+	margin-top: 10%;
+	margin-left: 33%;
+
+}
+.button{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	/*border: 1px solid grey;*/
+}
+#restart{
+	width: 23%;
+	margin-left: 13%;
+}
+#reset{
+	width: 23%;
+	margin-left: 13%;
+}
+#start{
+	width: 23%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
