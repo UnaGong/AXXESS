@@ -62,7 +62,4 @@ function fingertoe(count,num){
 	},1000);
 
 }
-function start(count,num){
-
-}
 
