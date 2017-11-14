@@ -26,6 +26,15 @@ body
 
 
 }
+.counter{
+
+	text-align:center;
+	font-family:Comic Sans MS,Helvetica,sans-serif;
+	font-size: 120px;
+	text-shadow: 10px 10px grey;
+	/*border: 25px solid green;*/
+	margin: 3%;
+}
 
 .frame{
 	position:absolute; 
@@ -35,16 +44,6 @@ body
 	height: 50%;
 /* 	border: 5px solid green; */
 
-}
-
-.counter{
-
-	text-align:center;
-	font-family:Comic Sans MS,Helvetica,sans-serif;
-	font-size: 120px;
-	text-shadow: 10px 10px grey;
-	/*border: 25px solid green;*/
-	margin: 3%;
 }
 
 #input{
