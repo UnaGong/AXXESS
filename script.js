@@ -43,23 +43,4 @@ $(document).ready(function(){
 
 });
 
-function fingertoe(count,num){
-	if(count>num) 
-		return;
-	t = setTimeout(function(){
-		$("#counter").text(count);
-		if(count % 3 == 0){
-			$("#finger").addClass("bold");
-		}else{
-			$("#finger").removeClass("bold");
-		}
-		if(count % 5 == 0){
-			$("#toe").addClass("bold");
-		}else{
-			$("#toe").removeClass("bold");
-		}
-		fingertoe(++count,num);
-	},1000);
-
-}
 
